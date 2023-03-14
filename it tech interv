@@ -1,0 +1,485 @@
+                  interview questions ? 
+ Q: why field work? 
+ A: allows me to help others while using my skills. 
+ challenge me to learn new skills and upgrade the existing ones. 
+ hands on work build experience like no other and i get work others in the field with a common goal.
+ 
+ Q: diagnosit method ? 
+ A: gather information such network diagram
+    what happened leading to malfunction, observe the equipment, 
+   review error messages/logs.
+   any changes made. what were they trying to go for. 
+   basic troubleshooting--. checking connections, rebooting, running diagnositc tests
+   narros down the problem to specific comp/subsystem
+   identify potential solutions
+   test and verify and document
+   
+ Q: obstacle occured ? 
+ A: assess the situation/nature of obstacle
+    consult techinical doc, reach out to colleages, vendors for advice
+    Experimentation in environment and if possible in seperate envir
+    implement, test verify and communicate with end users, other memmbers
+    
+ Q: handle cust. serice? 
+ A:  professional, curtous, respectful about their problems. 
+     communicate in an exploring manner, ask questions. help them walk through their tech issue
+     set realistic expectations. explain the process, timelines, keep them updated
+     go above and beyond, staying late, finish the job, offer to help with additonal training
+     follow up, additonal questions. 
+     
+ Q: client meeting preparation ? 
+ A: review client needs, identify potential issues, challenges that may need to be addressed
+    research on the nature of their job
+    prepare a presentation, clear, concise, relevant
+    prepare and anticipate questions, respons quickly
+    confitm logistics, date time, location, equipment
+    dress properly
+    arrive early. gives me time to set up and review notes
+    
+ Q: latest tech keep up? 
+ A:  attend industry events, workshops, latest trends, networking
+     read industory publications --. blogs, magazines, wired magazine is my long time fav, techcrunch is another one which analysis reviews products and services. computeworld, information week, ZDNet couvers hardware--> netgear wifi6. 
+ Q: what tech/system you used ?
+ A: 12v powerless drill-- 
+    anti-static wrist straps--
+    multimeters--
+    crimpers--
+    cable testers--
+    software-- --> 
+    network analyzers --> packet sniffers ( network taffic)
+    scanners --> to map out network, nmap, angry ip, advanced, Fing fo phones, solar winds,
+    softperfect 
+    packet analyzer --> wireshark
+    wireless --> kismet can find access points, netspot to check wifi signal strength, coverag
+    interference
+    network mgmt system --> centralised monitoring, 
+
+Q: previous repair ? 
+A: last repair was on printer issue. test page failed. power was av
+   checked it's web interface, status was offline
+   checked connectivity, didn't responded to pings
+   checked the network sswitch and link LED for printer port was off
+   unplugged the cable from port and tested it anothe port, it worked.
+   tested the port with loopback plug, it was faulty so replaced it.
+   pulled the port out from switch chassis, installed a new port
+   and made sure it was aligned wiht retaining chip, screw the 
+   retaining clip
+   tested the port, it worked
+   tested connectivity 
+   updated documentation. 
+Q: How do you plan your day ? 
+A: start by reviewing to do list, overview of what needs to be done
+   I'll priortize tasks based on level of urgency/importance.
+   allocate time for each task based on complexity and time required.
+   e.g. if it needs a lot of concentration, i'll give it a priority
+   factor in unexpected tasks . usually fexible and collaborate
+   with team, share knowlegde and ask questions. 
+   aim to complete tasks before time and meet deadlines. 
+
+Q: VLAN ? 
+A: group devices in logical structure. assign vlan id to each group
+  that id is added to network packet header by switch
+  Qos rules, security policies, highe degree
+
+Q: VLAN config ? 
+A: incorrect id, device assigned to 20 but vlan configured to 30
+   device is assigned but switch port not
+   trunking needs to config b/w two switches so devicds on different vlan's can communicate
+   i have seen duplication as well, same id, 2 departments
+
+Q: best practice? 
+A: test and document
+   config vlan id, memebers, trunking
+   assign devices, computers, pritners, servers
+   test connectiviy
+   test trunking
+   acl's 
+
+Q: trunk ?
+A: conig ports as trunks--> switchport mode trunk
+   config devices to tag traffic with vlan id. tagging option in adaptor settings
+
+Q: vpn ? 
+A: 
+   
+
+
+Q: challenging repair ? 
+A: One of instances was when i went to a store office to troubleshoot a computer problem. Wasn't booting up, disk boot failure. 
+I used the SMART status and there was high number Reallocated sector count and cuurent pending secotr count was high as well. 
+used Testdisk software to scan the partitions and analysed the data
+that could be recovered. 
+
+During my time, we had new builing constructed. few department were moved there. I got learn about business requirement side before network infrastructure. identifying the appls,services, expected traffic volume,number of users, 
+
+Q: install software ? 
+A: download --> close programs, run installer
+configure settings such as auto scans, real time protection, firewall
+settings
+update antivirus
+perform full system scan. 
+
+Q: Cabling ? 
+A: experience with 
+   cat 5e - 1gb, cat 6 - 10gb 55 and cat 6a has 100m, cat 7 10gb with 100m
+   cat 7 has more more bandwidth, shield better, requires GG45
+  white orange, orange, white green, blue blue white green white brown br
+  COAXIAL --> RG6 and RG-11 
+              3ghz/100m    1GHz/400m
+  USB --> 12MBPS, 480 and 3.0 has 5gbps
+
+Q: printer troubleshooting 
+A: identigy probolem, errors, physical 
+   basics hardware, sound
+   software, drivers, settings in print server, 
+   check physical damage with paper feed, cartridges if not leaking, power connections
+   in good health, paper traey, paper guides are aligning, 
+   rollers/moving parts, fuser assembly, print head. 
+   test and isolate
+   heating issues. 
+
+Q: test a cable ? 
+A: visual inspection --> correct connection(walljack to switches and then devices)
+  , damage such as kinks, cuts, frayed wires, 
+   continuity test with multimeter and check if circuit is complete
+   resistance test and make sure it indicates low
+   certification tests get done in data centers --> to check impedence, attentuation other metrics. you need certified technicians with some expensive tools like cable certifier. 
+
+Q: tools? 
+A: flashlight
+   blinky tester to check crossover, short circuit, conductors hooked up
+   ruler for bend radius
+
+Q: cable troubleshooting ? 
+A: check electrical continuity with blinky tester
+   check if it's terminated at home or at factory. either way, reterminate one or both ends and make sure color sequence is correct
+   check for CCA conductors as well, almunium mixed, less costly
+   BANDWIDTH issue 
+   check for keystone jacks /RG45 plugs --> if it's fiting to conductor, quality of termination,reterminate if necessary
+   check for high ambient temperature, reduce max cable length if necessary
+   still having issues, last check for kins and cuts, 
+   install new cable and take care of installation tension while installing it, 25ft-lbs
+
+                                            swtiches  
+Q: common issues? 
+A: connectivity poort: loose cables, misconfigured ports, faulty hardware
+   slow net--> congestion, outdated firmware, misconfigured ports
+   VLAN --> 
+   NOT POWERING ON
+   check the source, if switch is plugged and power source is working
+   power cable is connected and has electrical continuity, use multimeter to measure voltage
+   if +- terminals reading matches the specifications of source
+   try different outlet, battery
+   check for signs of physical damage, broken power button/damaged port
+      
+                                                 PATCH PANE
+Q: troubleshhot? 
+A: cables, ports damage, connectors, termination points, bend radius,circuits connected to connectors
+   config --> labeles are correct, use toner proble to confirm that
+   check for interference --> spectrum ana, multimeter, wifi ana, oscilloscope, signal generator
+
+Q: network performance ? 
+A: identify which devices are taking more bandwidth, QOS
+   firmware check for switch/panel
+   ports
+   cable issues
+
+Q: network issues ? 
+A: cable issues, connections malfunctoning. 
+incorrect config such as IP looping, routing
+software incompatibility and version mismatches. 
+traffic overload, a node is overburded, cable limit
+network ip problems such DNS misconfig, subnet masks, routing IP. 
+
+Q: Network troubleshooting ? 
+A: hardwre inspection
+   Ping --> reception, round trip times 
+   ipconfig--> TCP/ip, DHCP assigning ip's. 
+   ping and tracert  and send ICMP echos. Sometimes host discovery is disabled on some devices
+   DNS check for server issues retrieves server records for domain/ip address. 
+   malware check
+
+Q: netstat ? 
+A: stats for in/out connections if particular con. is eastablished
+, routing tables,active/listening ports
+   TCP/UDP endpoints --> which protocol is genarting most traffic
+   netstat -e gives me interface stat, bytes, packets recived/dropped. 
+   netstat -n will display connections w/out resolving ip-hostnames. 
+
+Q: protocol analyzer ? 
+A: flow of data between source/dest. check latecy types, channels. 
+
+Q: FTP server connectivity?
+A: server status. ping it test the connectivity--> 
+
+
+   firewall settings, port 20/21 open
+   credentials --> user/pass correct, client side is using right protocols
+   software updates
+   disk space available
+   ftp user permissions
+
+Q: Cpu issues ? 
+A: overheatings--> 
+   slow --> 
+   comptatibility --> motherboard, BIOS
+   damage --> power surges, physical, manufacturing
+   Overclocking --> risk of overheating
+   Malware --> 
+
+   ESXTOP --> monitor/analyze performance of resources- cpu, memory, disk,network. 
+   part of ESXi hypervisor --> 
+   ALTERNATIVES --> TOP, TASK MANAGER, RESOURCE MONITOR,PERFON
+
+Q: browser issues ?
+A: updates
+   run it in safe mode--. add on extensions might be an issue, isolate that by checking chrome task manger(check cpu usage), firefox has similar profiler to recod and reproduce the issue 
+   cache/cookies
+   malware windows
+   reset it to default
+
+Q: NO output detected ? 
+A: check power source is connected, physical condition of cable, 
+   use multimeter to voltage range, usually 120v
+   power supply tester
+   try a different cord
+                  source incorrect
+   correct input channels
+   resolution--. display might be out of sync with iput signal, video card set to higher display
+   graphics card
+
+Q: dead PC? 
+A: BIOS can be used --> USB Boot option--> advanced options
+cmd --> notepad-> open files and select external disc
+ take out the hard drive and use SATA to USB connector to 
+ connect to to another pC and assign it a drive letter from
+ disc mgmt. 
+ software recover solutions.
+
+Q: solar winds ? 
+A: Network path monitor
+   Netpath network path analysis
+   Perfstatck
+
+Q: upper layer issues ?
+A: 
+
+Q: LAN connectivity issue ? 
+A: ping destination ip if they are same subnet
+   ping default gateway if destination on different sub
+   if both fails, check the routing table to see if subnet and route are properly defined--> commands wll differ, cisco's have show ip route--> should give me sub,next hop, exit int,routing protocol.
+   check if host can ping another hop in the LAN
+
+Q: DISC error ? 
+A: BIOS can't detect bootable device
+   1. check non-bootable storage media such as a usb drive attachd.
+   2. check SATA cable on HDD or NVE's if using ssd --> 
+   3. check the BIOS if HDD/SDD drive are set as primary disc
+   4. check the boot order
+   4. window tools --> event v, check disk, perfmon, system file checker sfc /scannow
+   5. try to reinstall the hard drive
+   6. if nothing works, i'll assume MBR,Boot sector must be damanged, recover the data. booting from usb. 
+
+Q: incremental /differential? 
+A: data changed since last incremental vs data changed since last full
+
+Q: test RAM ?
+A: boot from seperate bootable system
+  my preferable tool is Memtest86 because i can boot it from usb.
+Inversion test --> bsod, crashes, stability issues
+  writes data into every location and tries to read it to verify if it is stores directly.
+  does it multiple times with different patterns.
+block move test --> check errors during transfer
+Randam number sequence --> 
+Bit fade test --> checks if bits changed due to cosmic rays
+
+STRESSAPPTEST --> FOR LINUX AND GITHUB HAS SOURCE
+
+Q: windows restarting in intervals ? 
+A: system properties --> startup and recovery
+   hardware incompatibiility, driver update
+   viruses malware
+   overheating, temp gun
+   BIOS setup, if doesn't boot after sitting idle--> OS issue
+
+Q: registry ? 
+A: centralised database
+   configuration settings for system, users, software/hard
+   optimize perf by storing info about soft/hard
+   troubleshooting--> update fails, i can turn on auot update in software /windows
+
+Q: issueswith WSUS ? 
+A: fail to install--> connectivity, disk space, confict
+   Fail to download --> connect, firewall, proxy servers
+   resource --> slow perf, high cpu
+   compatibi--> system requirements, rolling back
+   communication with clients
+
+Q: securing ? 
+A: updates, patches
+   strong password, mfa
+   anti-malware, defender isn't too bad
+   firewall config, block unnecessary incoming
+   use standard user accoung
+   disable unnecessary services
+   use bitlocker, 
+   vpn
+   password manager
+   backup regularly
+   educate myself on phishing/social eng
+   audit/review sy logs 
+
+Q: components of computer ? 
+A: cpu, brain, executing instrutions from ram, ssd
+   MB--. connects everything, buses, circuits
+   memory--. holds the data temorarily for cpu
+   storage --> 
+   Input/output
+
+Q: replace ssd ? 
+A: shutdown, disconnect
+   case, 
+   connect cables to new drive. SATA or M2 interface 
+   BIOS to check new drive, may need to enable SATA port
+   initialize, format it
+
+Q: different approaches to repair?
+A: depends on type of equip,nature of repair, urgency
+   Gather info, user, logs, dignostics, manuals.
+   evaluate and access the risk/benefit of each option
+   consult with others if unsure
+   priortize if it is critical
+   document
+
+Q: typical approach not working ?
+A: research the problem, resources, online forums, tech articles, vendor docs
+   consult colleagues- chat groups
+   experiment with solutions
+   escalate the issue with support, vendor
+   Documents
+
+Q: emergency work ? 
+A: flexibiility/responsiveness key traits
+   Access the urgency nature of the job, plan for it collect any additional tools or people that i might
+   communicate with customer and plan the repair immidiately
+
+Q: frustrated customer? 
+A: deescalate by remaining calm
+   listen actively, gain better understading
+   empathize and the can see me receptive
+   regular updates
+   additional support
+   follow up
+
+Q: running late? 
+A: communicate with current clietn. 
+   prioritize
+   with next client, provide estimate
+   reschedule 
+   learn from the experience: what could have i done differnetly
+
+Q: multiple repair jobs ? 
+a: assess teh severity and lenght required
+   create a plan- outline the order,estimate the time, extra materials
+   communicate with client
+   test and verify
+
+Q: troubleshoot with minimum info ? 
+A; exact error message
+   is it new, old one
+   restarting the printer/com/both
+   correct driver
+   paper tray/
+   ink/toner cartridges
+   any blinking lights
+   try printing with another device. 
+
+q:                                  ABM
+A: participating in planning/implementing in new tech
+   accurate records of work done
+    conduct regular maintianance, updates, backups.
+
+Q: waiting on vendor? 
+A: communicate with vendor,keep communication open
+   updated the client
+   monitor progress
+   provide alternative solutions, temporary workarounds/replacement
+   escalate if necessary
+
+q: communicate with team member with differ opinion ? 
+A: listen actively, understand their point of view
+   respect and value their opinion
+   provide rationale and evidence for your view
+   seek common ground, overlaping opinions and build on them, eastablish a foundation
+   for compromise. 
+   consider alternatives. 
+   reach a consesus and don't let the other person feel that my opinion is dominating
+
+Q: mgmt confilit ? 
+A: seek clarification, understand their reasoning, ask questions
+   express my concerns if i don't think it's right
+   propose alternatives, more effective
+   collaborate, seek consensus, best course of aciion
+   follow company protocols, complete the task, document my concerts and reasons for disagreement with requested course of action
+
+Q: see yourself ? 
+A: gain knowledge about technology preferred by the company and differnt use cases.    
+   PSA systeems -->   
+   RMM 
+   Network --> 
+   Documenation -->  
+   advanced troubleshooting adn network security, servers.    
+   like to work on projects with company, take part in the planning process of infra, migrations, setup, policies and secuity consultants. 
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+     
